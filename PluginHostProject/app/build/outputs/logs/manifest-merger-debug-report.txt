@@ -1,0 +1,471 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:3:5-26
+		INJECTED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/dayongxin/.android/build-cache/b9fb8923e2c445f6e12c27ba0a5362adc6c5293d/output/AndroidManifest.xml:9:5-20
+MERGED from [PluginHostProject:com_replugin:unspecified] /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/com_replugin/build/intermediates/bundles/default/AndroidManifest.xml:11:5-16:19
+MERGED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:24:5-242:19
+MERGED from [PluginHostProject:com_virtualapk:unspecified] /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/com_virtualapk/build/intermediates/bundles/default/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/dayongxin/.android/build-cache/706040e7efc1926f1a2fdbf383afc3eb6bbde53f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/dayongxin/.android/build-cache/ed89c28ef4b9fc15e2a32f2ce09fd0d98c7fddca/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/dayongxin/.android/build-cache/3af09082035c1a128afaf7c86bdccc2657db97d4/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/dayongxin/.android/build-cache/35a67fccfc9a3aa7071e50b463153f071b5f36ff/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/dayongxin/.android/build-cache/38520d08cddb3e6b720a9a13febc731b42993fb4/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/dayongxin/.android/build-cache/b3274de53add25c094efe57d38c9cb7f0ed4bf29/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/dayongxin/.android/build-cache/a1fb81657c400a65c96fd9ab343fcdd532e8650b/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/dayongxin/.android/build-cache/dff17cd24d26f164f68dc9aa8adac697f1317c69/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/dayongxin/.android/build-cache/f1abe7d27d486be4dd74f3e1e09beef1302f4a22/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:11:9-40
+	android:name
+		ADDED from [PluginHostProject:com_replugin:unspecified] /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/com_replugin/build/intermediates/bundles/default/AndroidManifest.xml:12:9-71
+activity#com.dyx.pdp.MainActivity
+ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/dayongxin/.android/build-cache/b9fb8923e2c445f6e12c27ba0a5362adc6c5293d/output/AndroidManifest.xml:5:5-7:41
+MERGED from [PluginHostProject:com_replugin:unspecified] /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/com_replugin/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:20:5-22:41
+MERGED from [PluginHostProject:com_virtualapk:unspecified] /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/com_virtualapk/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/dayongxin/.android/build-cache/706040e7efc1926f1a2fdbf383afc3eb6bbde53f/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/dayongxin/.android/build-cache/ed89c28ef4b9fc15e2a32f2ce09fd0d98c7fddca/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/dayongxin/.android/build-cache/3af09082035c1a128afaf7c86bdccc2657db97d4/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/dayongxin/.android/build-cache/35a67fccfc9a3aa7071e50b463153f071b5f36ff/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/dayongxin/.android/build-cache/38520d08cddb3e6b720a9a13febc731b42993fb4/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/dayongxin/.android/build-cache/b3274de53add25c094efe57d38c9cb7f0ed4bf29/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/dayongxin/.android/build-cache/a1fb81657c400a65c96fd9ab343fcdd532e8650b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/dayongxin/.android/build-cache/dff17cd24d26f164f68dc9aa8adac697f1317c69/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /Users/dayongxin/.android/build-cache/f1abe7d27d486be4dd74f3e1e09beef1302f4a22/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/dayongxin/.android/build-cache/706040e7efc1926f1a2fdbf383afc3eb6bbde53f/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dayongxin/Desktop/Github/PluginDemo/PluginHostProject/app/src/main/AndroidManifest.xml
+provider#com.qihoo360.replugin.component.process.ProcessPitProviderPersist
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:35:9-39:47
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:37:13-65
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:39:13-44
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:36:13-93
+provider#com.qihoo360.replugin.component.process.ProcessPitProviderUI
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:40:9-43:40
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:42:13-67
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:41:13-88
+provider#${applicationId}.loader.p.ProviderN1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:44:9-47:40
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:46:13-65
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:45:13-64
+service#${applicationId}.loader.s.ServiceN1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:49:9-51:40
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:50:13-63
+provider#com.qihoo360.replugin.component.process.ProcessPitProviderLoader0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:53:9-57:42
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:55:13-66
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:57:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:54:13-93
+provider#${applicationId}.loader.p.Provider0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:58:9-62:42
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:60:13-64
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:62:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:59:13-63
+service#${applicationId}.loader.s.Service0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:64:9-67:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:67:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:65:13-62
+activity#${applicationId}.loader.a.Activity0_singleTask1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:69:9-77:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:74:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:75:13-49
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:73:13-44
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:72:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:71:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:77:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:76:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:70:13-75
+activity#${applicationId}.loader.a.Activity0_singleInstance1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:78:9-85:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:83:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:84:13-49
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:82:13-48
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:81:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:80:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:85:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:79:13-79
+activity#${applicationId}.loader.a.Activity0_task
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:86:9-92:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:90:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:91:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:89:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:88:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:92:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:87:13-68
+activity#${applicationId}.loader.a.Activity0_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:93:9-99:74
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:97:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:98:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:96:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:95:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:99:13-71
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:94:13-74
+activity#${applicationId}.loader.a.Activity0_translucent
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:100:9-106:75
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:104:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:105:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:103:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:102:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:106:13-72
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:101:13-75
+activity#${applicationId}.loader.a.Activity0_translucent_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:107:9-113:86
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:111:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:112:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:110:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:109:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:113:13-83
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:108:13-86
+activity#${applicationId}.loader.a.Activity0_dialog
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:114:9-120:59
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:118:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:119:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:117:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:116:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:120:13-56
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:115:13-70
+activity#${applicationId}.loader.a.Activity0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:121:9-128:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:125:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:126:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:124:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:123:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:128:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:127:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:122:13-63
+provider#com.qihoo360.replugin.component.process.ProcessPitProviderLoader1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:130:9-134:42
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:132:13-66
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:134:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:133:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:131:13-93
+provider#${applicationId}.loader.p.Provider1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:135:9-139:42
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:137:13-64
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:139:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:138:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:136:13-63
+service#${applicationId}.loader.s.Service1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:141:9-144:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:144:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:143:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:142:13-62
+activity#${applicationId}.loader.a.Activity1_singleTask1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:146:9-154:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:151:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:152:13-49
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:150:13-44
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:149:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:148:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:154:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:153:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:147:13-75
+activity#${applicationId}.loader.a.Activity1_singleInstance1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:155:9-162:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:160:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:161:13-49
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:159:13-48
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:158:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:157:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:162:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:156:13-79
+activity#${applicationId}.loader.a.Activity1_task
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:163:9-169:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:167:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:168:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:166:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:165:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:169:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:164:13-68
+activity#${applicationId}.loader.a.Activity1_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:170:9-176:74
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:174:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:175:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:173:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:172:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:176:13-71
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:171:13-74
+activity#${applicationId}.loader.a.Activity1_translucent
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:177:9-183:75
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:181:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:182:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:180:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:179:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:183:13-72
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:178:13-75
+activity#${applicationId}.loader.a.Activity1_translucent_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:184:9-190:86
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:188:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:189:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:187:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:186:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:190:13-83
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:185:13-86
+activity#${applicationId}.loader.a.Activity1_dialog
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:191:9-197:59
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:195:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:196:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:194:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:193:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:197:13-56
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:192:13-70
+activity#${applicationId}.loader.a.Activity1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:198:9-205:63
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:202:13-39
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:203:13-49
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:201:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:200:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:205:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:204:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:199:13-63
+provider#com.qihoo360.replugin.component.provider.PluginPitProviderUI
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:207:9-210:40
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:209:13-65
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:210:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:208:13-88
+provider#com.qihoo360.replugin.component.provider.PluginPitProviderPersist
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:211:9-215:47
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:213:13-65
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:215:13-44
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:214:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:212:13-93
+service#com.qihoo360.replugin.component.service.server.PluginPitServiceGuard
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:217:9-219:47
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:219:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:218:13-96
+service#com.qihoo360.replugin.component.service.server.PluginPitServiceUI
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:220:9-101
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:220:18-98
+provider#com.qihoo360.mobilesafe.svcmanager.ServiceProvider
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:227:9-232:47
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:229:13-62
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:232:13-44
+	android:multiprocess
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:231:13-41
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:230:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:228:13-78
+provider#com.qihoo360.replugin.packages.PluginFastInstallProvider
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:237:9-241:20
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:239:13-64
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:240:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.1.0] /Users/dayongxin/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/AndroidManifest.xml:238:13-84
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/dayongxin/.android/build-cache/706040e7efc1926f1a2fdbf383afc3eb6bbde53f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/dayongxin/.android/build-cache/ed89c28ef4b9fc15e2a32f2ce09fd0d98c7fddca/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/dayongxin/.android/build-cache/3af09082035c1a128afaf7c86bdccc2657db97d4/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/dayongxin/.android/build-cache/35a67fccfc9a3aa7071e50b463153f071b5f36ff/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/dayongxin/.android/build-cache/38520d08cddb3e6b720a9a13febc731b42993fb4/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/dayongxin/.android/build-cache/b3274de53add25c094efe57d38c9cb7f0ed4bf29/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/dayongxin/.android/build-cache/a1fb81657c400a65c96fd9ab343fcdd532e8650b/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/dayongxin/.android/build-cache/dff17cd24d26f164f68dc9aa8adac697f1317c69/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/dayongxin/.android/build-cache/f1abe7d27d486be4dd74f3e1e09beef1302f4a22/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/dayongxin/.android/build-cache/706040e7efc1926f1a2fdbf383afc3eb6bbde53f/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/dayongxin/.android/build-cache/706040e7efc1926f1a2fdbf383afc3eb6bbde53f/output/AndroidManifest.xml:26:9-47

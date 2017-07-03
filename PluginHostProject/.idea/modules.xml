@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PluginHostProject.iml" filepath="$PROJECT_DIR$/PluginHostProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com_replugin/com_replugin.iml" filepath="$PROJECT_DIR$/com_replugin/com_replugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com_virtualapk/com_virtualapk.iml" filepath="$PROJECT_DIR$/com_virtualapk/com_virtualapk.iml" />
+    </modules>
+  </component>
+</project>
