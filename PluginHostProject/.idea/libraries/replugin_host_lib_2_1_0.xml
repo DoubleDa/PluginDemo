@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="replugin-host-lib-2.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/3ea2a318332f9ad445ef835bfd5356d4c748c85f/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qihoo360.replugin/replugin-host-lib/2.1.0/61775fa1f8c7b7451b7c6f8073f759b9fa6482df/replugin-host-lib-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
